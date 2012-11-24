@@ -1,3 +1,11 @@
+#editor project files
+*.sublime-workspace
+*.sublime-project
+*.esproj
+*.espressostorage
+*.komodoproject
+
+#files
 *.sass-cache
 *.suo
 *.bak
