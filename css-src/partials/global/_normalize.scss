@@ -206,11 +206,13 @@ sub {
 	// ==========================================================================// */
 
 // *
-// * Removes border when inside `a` element in IE 8/9.
+// * 1. Removes border when inside `a` element in IE 8/9.
+// * 2. Remove the gap between images and the bottom of their containers: h5bp.com/i/440
 // */
 
 img {
-	border: 0;
+	border: 0; // 1
+	vertical-align: middle; // 2
 }
 
 // *
@@ -355,12 +357,14 @@ input::-moz-focus-inner {
 
 // *
 // * 1. Removes default vertical scrollbar in IE 8/9.
-// * 2. Improves readability and alignment in all browsers.
+// * 2. Allow only vertical resizing of textareas.
+// * 3. Improves readability and alignment in all browsers.
 // */
 
 textarea {
 	overflow: auto; // 1
-	vertical-align: top; // 2
+	resize: vertical; // 2
+	vertical-align: top; // 3
 }
 
 // * ==========================================================================

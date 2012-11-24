@@ -22,6 +22,7 @@
 
 // ** @section: Global */
 @import "partials/global/border-box";
+@import "partials/global/selection";
 @import "partials/global/normalize";
 @import "partials/global/typography";
 
@@ -31,6 +32,7 @@
 @import "partials/elements/nav";
 @import "partials/elements/a";
 @import "partials/elements/hx";
+@import "partials/elements/hr";
 
 // ** @section: Scaffold */
 @import "partials/scaffold/grid";
@@ -51,7 +53,15 @@
 // @import "partials/plugins/XXXX";
 
 // ** @section: Helpers */
+// @import "partials/helpers/ir";
+// @import "partials/helpers/hidden";
+// @import "partials/helpers/visually-hidden";
+// @import "partials/helpers/invisible";
+// @import "partials/helpers/clearfix";
 // @import "partials/helpers/XXXX";
+
+// ** @section: Print */
+@import "partials/media/print";
 
 // ** @section: Development */
 // @import "partials/development/debug";
