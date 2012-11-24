@@ -8,17 +8,17 @@ html {
 	font-size: 62.5%;
 }
 body {
-	@include font-size(1.6);
 	// font-size: 16px;
-	line-height: 24px;
+	@include font-size(1.6);
+	line-height: 1.4;
 }
 h1 {
+	// font-size: 55px;
 	@include font-size(5.5);
 	@include logo-font-stack;
-	// font-size: 55px;
-	line-height: 60px;
-	margin-top: 24px;
-	margin-bottom: 48px;
+	// line-height: 60px;
+	// margin-top: 24px;
+	// margin-bottom: 48px;
 }
 h2,
 h3,
@@ -28,39 +28,42 @@ h5 {
 	font-weight: normal;
 }
 h2 {
-	@include font-size(4.2);
 	// font-size: 42px;
-	line-height: 48px;
-	margin-top: 48px;
-	margin-bottom: 24px;
+	@include font-size(4.2);
+	// line-height: 48px;
+	// margin-top: 48px;
+	// margin-bottom: 24px;
 }
 h3 {
-	@include font-size(2.6);
 	// font-size: 26px;
-	line-height: 48px;
-	margin-top: 24px;
-	margin-bottom: 0;
+	@include font-size(2.6);
+	// line-height: 48px;
+	// margin-top: 24px;
+	// margin-bottom: 0;
 }
 h4 {
+	// font-size: 20px;
 	@include font-size(2.0);
 	font-weight: bold;
 }
 h5 {
+	// font-size: 18px;
 	@include font-size(1.8);
 }
 h6 {
+	// font-size: 14px;
 	@include font-size(1.4);
 }
 .formField,
 p,
 ul {
 	margin-top: 0;
-	margin-bottom: 24px;
+	margin-bottom: 1em;
 }
 small,
 aside {
-	@include font-size(1.0);
 	// font-size: 10px;
+	@include font-size(1.0);
 }
 button {
 	font-weight: bold;

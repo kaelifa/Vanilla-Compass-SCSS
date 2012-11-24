@@ -2,6 +2,5 @@ body {
 	background: $color-page-bg;
 	color: $color-copy;
 	@include default-font-stack;
-	font-size: 62.5%;
-	line-height: 1.4;
+	margin: 0;
 }
